@@ -239,6 +239,26 @@ h6 {
   visibility: visible;
 }
 
+.navbar .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: #fff;
+  background: #009cea;
+  margin-left: 20px;
+}
+
+.navbar .btn-get-started:hover {
+  background: #008bd1;
+}
+
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
